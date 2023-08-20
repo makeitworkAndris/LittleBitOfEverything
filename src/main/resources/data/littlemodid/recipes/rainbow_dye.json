@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:red_dye"
+    },
+    "q": {
+      "item": "minecraft:orange_dye"
+    },
+    "w": {
+      "item": "minecraft:yellow_dye"
+    },
+    "e": {
+      "item": "minecraft:green_dye"
+    },
+    "r": {
+      "item": "minecraft:blue_dye"
+    },
+    "t": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "pattern": [
+    "#qw",
+    "ert",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "item": "littlemodid:rainbow_dye"
+  },
+  "show_notification": true
+}

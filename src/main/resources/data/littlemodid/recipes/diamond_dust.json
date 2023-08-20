@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "littlemodid:diamond_dust"
+  },
+  "show_notification": true
+}

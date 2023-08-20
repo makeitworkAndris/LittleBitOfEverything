@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "r": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    " # ",
+    "r#r",
+    "rrr"
+  ],
+  "result": {
+    "count": 1,
+    "item": "littlemodid:mortar"
+  },
+  "show_notification": true
+}
