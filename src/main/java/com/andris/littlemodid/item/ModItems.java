@@ -1,6 +1,7 @@
 package com.andris.littlemodid.item;
 
 import com.andris.littlemodid.LittleModMain;
+import com.andris.littlemodid.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -16,6 +17,7 @@ public class ModItems {
 
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(DIAWRONITE_ALLOY_INGOT);
+        entries.add(ModBlocks.DIAWRONITE_BLOCK);
     }
 
     private static Item registerItem(String name, Item item) {

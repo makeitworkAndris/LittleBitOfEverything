@@ -1,5 +1,6 @@
 package com.andris.littlemodid;
 
+import com.andris.littlemodid.block.ModBlocks;
 import com.andris.littlemodid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,11 +13,16 @@ public class LittleModMain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		// This code runs as soon as Minecraft is in a mod-load-ready state.
+		// However, some things (like resources) may still be uninitialized.
+		// Proceed with mild caution.
+
 		LOGGER.info("LittleBitOfEverything s running!");
 		LOGGER.info("This is the itemsFeature branch!");
 		LOGGER.info("This is still the itemsFeature branch!");
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
