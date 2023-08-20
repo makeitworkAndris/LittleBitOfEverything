@@ -3,7 +3,7 @@
 	"package": "com.andris.littlemodid.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"LittleModMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

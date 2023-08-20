@@ -3,26 +3,26 @@
 	"id": "littlemodid",
 	"version": "${version}",
 	"name": "LittleBitOfEverything",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Little bit of everything just to practise coding :)",
 	"authors": [
-		"Me!"
+		"Andris_, BlackfoxOo"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/littlemodid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.andris.littlemodid.ExampleMod"
+			"com.andris.littlemodid.LittleModMain"
 		],
 		"client": [
-			"com.andris.littlemodid.ExampleModClient"
+			"com.andris.littlemodid.LittleModClient"
 		],
 		"fabric-datagen": [
-			"com.andris.littlemodid.ExampleModDataGenerator"
+			"com.andris.littlemodid.LittleModDataGenerator"
 		]
 	},
 	"mixins": [
