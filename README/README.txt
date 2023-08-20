@@ -2,7 +2,11 @@ Black of Diawronite
 Diawronite Pickaxe
 Diawronite Furnace
 
-Diawronite Alloy
+Diawronite Alloy Ingot
+Furnace:
+-Diawronite Alloy Dust
+
+Diawronite Alloy Dust
 Crafting Table:
 	-Diamond (Dust)
 	-Netherite (Dust)
