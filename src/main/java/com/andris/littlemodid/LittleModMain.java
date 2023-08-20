@@ -18,8 +18,8 @@ public class LittleModMain implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("LittleBitOfEverything s running!");
-		LOGGER.info("This is the itemsFeature branch!");
-		LOGGER.info("This is still the itemsFeature branch!");
+		LOGGER.info("This is the furnaceFeature branch!");
+		LOGGER.info("This is still the furnaceFeature branch!");
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
