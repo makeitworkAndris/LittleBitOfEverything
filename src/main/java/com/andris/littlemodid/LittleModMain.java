@@ -17,8 +17,9 @@ public class LittleModMain implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("LittleBitOfEverything is running!");
+		LOGGER.info("LittleBitOfEverything s running!");
 		LOGGER.info("This is the itemsFeature branch!");
+		LOGGER.info("This is still the itemsFeature branch!");
 
 	}
 }

@@ -18,10 +18,12 @@ Crafting Table:
 	-Dye green
 	-Dye blue
 	-Dye purple
+
 Dusts
 Crafting Table:
 	-Mortar
 	-Dust
+
 Mortar
 Crafting Table:
 	-Stone
