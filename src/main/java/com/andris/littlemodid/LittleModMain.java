@@ -18,5 +18,7 @@ public class LittleModMain implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("LittleBitOfEverything is running!");
+		LOGGER.info("This is the main branch!");
+
 	}
 }
