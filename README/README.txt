@@ -1,28 +1,28 @@
-Black of diawronite
-diawronite pickaxe
-diawronite furnace
+Black of Diawronite
+Diawronite Pickaxe
+Diawronite Furnace
 
-diawronite alloy
-crafting table:
-	-diamond (dust)
-	-netherite (dust)
-	-wrought iron (dust)
-	-gold (dust)
-	-rainbow dye
+Diawronite Alloy
+Crafting Table:
+	-Diamond (Dust)
+	-Netherite (Dust)
+	-Wrought iron (Dust)
+	-Gold (Dust)
+	-Rainbow Dye
 	
-rainbow dye	
-crafting table:
-	-dye red
-	-dye orange 
-	-dye yellow
-	-dye green
-	-dye blue
-	-dye purple
+Rainbow Dye
+Crafting Table:
+	-Dye red
+	-Dye orange
+	-Dye yellow
+	-Dye green
+	-Dye blue
+	-Dye purple
 Dusts
-crafting table:
+Crafting Table:
 	-Mortar
 	-Dust
 Mortar
-crafting table:
+Crafting Table:
 	-Stone
 	-Iron
