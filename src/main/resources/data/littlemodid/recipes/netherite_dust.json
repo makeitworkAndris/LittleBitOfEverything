@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "littlemodid:netherite_dust"
+  },
+  "show_notification": true
+}

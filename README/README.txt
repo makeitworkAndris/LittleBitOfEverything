@@ -25,8 +25,7 @@ Crafting Table:
 
 Dusts
 Crafting Table:
-	-Mortar
-	-Dust
+	2 ingots on top of each other (1:2;2:2)
 
 Mortar
 Crafting Table:

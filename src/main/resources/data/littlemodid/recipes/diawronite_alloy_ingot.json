@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "ore",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "littlemodid:diawronite_alloy_dust",
+    "count": 3
+  },
+  "result": "littlemodid:diawronite_alloy_ingot",
+  "count": 1
+}

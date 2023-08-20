@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "littlemodid:wrought_iron_dust"
+    },
+    {
+      "item": "littlemodid:gold_dust"
+    },
+    {
+      "item": "littlemodid:diamond_dust"
+    },
+    {
+      "item": "littlemodid:netherite_dust"
+    },
+    {
+      "item": "littlemodid:rainbow_dye"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+      "item": "littlemodid:diawronite_alloy_dust",
+      "count": 1
+  }
+}
