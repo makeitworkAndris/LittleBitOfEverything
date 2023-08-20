@@ -1,5 +1,9 @@
 {
   "item.littlemodid.diawronite_alloy_ingot": "Diawronite Alloy Ingot",
   "block.littlemodid.diawronite_block": "Diawronite Block",
-  "item.littlemodid.diawronite_pickaxe": "Diawronite Pickaxe"
+  "item.littlemodid.diawronite_axe": "Diawronite Axe",
+  "item.littlemodid.diawronite_hoe": "Diawronite Hoe",
+  "item.littlemodid.diawronite_pickaxe": "Diawronite Pickaxe",
+  "item.littlemodid.diawronite_shovel": "Diawronite Shovel",
+  "item.littlemodid.diawronite_sword": "Diawronite Sword"
 }

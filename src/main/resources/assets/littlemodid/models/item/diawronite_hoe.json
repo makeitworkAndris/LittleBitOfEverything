@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "littlemodid:item/diawronite_hoe"
+  }
+}
