@@ -2,6 +2,7 @@ package com.andris.littlemodid.item;
 
 import com.andris.littlemodid.LittleModMain;
 import com.andris.littlemodid.block.ModBlocks;
+import com.andris.littlemodid.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
