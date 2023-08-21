@@ -1,12 +1,10 @@
 package com.andris.littlemodid;
 
 import com.andris.littlemodid.block.ModBlocks;
+import com.andris.littlemodid.item.ModItemGroup;
 import com.andris.littlemodid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +21,7 @@ public class LittleModMain implements ModInitializer {
 		LOGGER.info("LittleBitOfEverything s running!");
 		LOGGER.info("This is the toolsFeature branch!");
 		LOGGER.info("This is still the toolsFeature branch!");
-
+		ModItemGroup.regiterModItemGroup();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
