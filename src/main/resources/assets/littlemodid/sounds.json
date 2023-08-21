@@ -2,7 +2,7 @@
   "music_disc_acid_balade": {
     "sounds": [
       {
-        "name": "littlemod:music_disc_acid_balade",
+        "name": "littlemodid:music_disc_acid_balade",
         "stream": true
       }
     ]
