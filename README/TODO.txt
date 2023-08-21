@@ -1,2 +1,5 @@
 ModItems.java:
 - //Attack damage and speeds need to be corrected.
+
+ModModelProvider.java:
+-//Find out where it needs to get used so that music_disc_acid_balade works and gives sound
