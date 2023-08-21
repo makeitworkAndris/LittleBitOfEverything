@@ -26,6 +26,7 @@ public class ModItems {
     public static final Item MORTAR = registerItem("mortar", new Item(new FabricItemSettings()));
     public static final Item URANIUM_DUST = registerItem("uranium_dust", new Item(new FabricItemSettings()));
     public static final Item RAINBOW_DYE = registerItem("rainbow_dye", new Item(new FabricItemSettings()));
+    public static final Item COMPRESSED_COAL = registerItem("compressed_coal", new Item(new FabricItemSettings()));
     public static final Item DENSE_DIAWRONITE_ALLOY_INGOT = registerItem("dense_diawronite_alloy_ingot", new Item(new FabricItemSettings()));
 
     //Attack damage and speeds need to be corrected.
@@ -62,6 +63,7 @@ public class ModItems {
         entries.add(DIAWRONITE_SWORD);
         entries.add(ModBlocks.SPECIAL_DIRT);
         entries.add(MUSIC_DISC_ACID_BALADE);
+        entries.add(COMPRESSED_COAL);
         entries.add(DENSE_DIAWRONITE_ALLOY_INGOT);
     }
 

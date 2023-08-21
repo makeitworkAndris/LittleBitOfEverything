@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "q": {
+      "item": "littlemodid:dense_diawronite_alloy_ingot"
+    },
+    "w": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "qqq",
+    "w#w",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "item": "littlemodid:diawronite_pickaxe"
+  },
+  "show_notification": true
+}
