@@ -5,6 +5,8 @@ import com.andris.littlemodid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

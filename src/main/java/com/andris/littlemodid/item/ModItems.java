@@ -3,11 +3,13 @@ package com.andris.littlemodid.item;
 import com.andris.littlemodid.LittleModMain;
 import com.andris.littlemodid.block.ModBlocks;
 import com.andris.littlemodid.item.custom.*;
+import com.andris.littlemodid.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -36,6 +38,8 @@ public class ModItems {
             new ModShovelItem(ModToolMaterials.DIAWRONITE,1,2f, new FabricItemSettings()));
     public static final Item DIAWRONITE_SWORD = registerItem("diawronite_sword",
             new ModSwordItem(ModToolMaterials.DIAWRONITE,1,2f, new FabricItemSettings()));
+    public static final Item MUSIC_DISC_ACID_BALADE = registerItem("music_disc_acid_balade",
+            new MusicDiscItem(6, ModSounds.MUSIC_DISC_ACID_BALADE, new FabricItemSettings().maxCount(1), 301));
 
 
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
@@ -56,6 +60,7 @@ public class ModItems {
         entries.add(DIAWRONITE_SHOVEL);
         entries.add(DIAWRONITE_SWORD);
         entries.add(ModBlocks.SPECIAL_DIRT);
+        entries.add(MUSIC_DISC_ACID_BALADE);
     }
 
     private static Item registerItem(String name, Item item) {
