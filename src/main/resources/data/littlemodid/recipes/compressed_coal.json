@@ -3,20 +3,17 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "littlemodid:diawronite_alloy_ingot"
-    },
-    "q": {
-      "item": "littlemodid:compressed_coal"
+      "item": "minecraft:coal"
     }
   },
   "pattern": [
     "###",
-    "#q#",
+    "# #",
     "###"
   ],
   "result": {
     "count": 1,
-    "item": "littlemodid:dense_diawronite_alloy_ingot"
+    "item": "littlemodid:compressed_coal"
   },
   "show_notification": true
 }
