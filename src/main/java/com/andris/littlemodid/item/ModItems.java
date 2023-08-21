@@ -45,26 +45,32 @@ public class ModItems {
 
 
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
-        entries.add(DIAWRONITE_ALLOY_INGOT);
-        entries.add(ModBlocks.DIAWRONITE_BLOCK);
+        entries.add(IRON_DUST);
+        entries.add(WROUGHT_IRON_DUST);
         entries.add(GOLD_DUST);
         entries.add(DIAMOND_DUST);
         entries.add(NETHERITE_DUST);
-        entries.add(IRON_DUST);
-        entries.add(WROUGHT_IRON_DUST);
-        entries.add(MORTAR);
-        entries.add(URANIUM_DUST);
         entries.add(DIAWRONITE_ALLOY_DUST);
+        entries.add(URANIUM_DUST);
         entries.add(RAINBOW_DYE);
+
+        entries.add(DIAWRONITE_ALLOY_INGOT);
+        entries.add(DENSE_DIAWRONITE_ALLOY_INGOT);
+        entries.add(COMPRESSED_COAL);
+
+        entries.add(ModBlocks.DIAWRONITE_BLOCK);
+        entries.add(ModBlocks.SPECIAL_DIRT);
+
+        entries.add(DIAWRONITE_SWORD);
         entries.add(DIAWRONITE_AXE);
-        entries.add(DIAWRONITE_HOE);
         entries.add(DIAWRONITE_PICKAXE);
         entries.add(DIAWRONITE_SHOVEL);
-        entries.add(DIAWRONITE_SWORD);
-        entries.add(ModBlocks.SPECIAL_DIRT);
+        entries.add(DIAWRONITE_HOE);
+        entries.add(MORTAR);
+
         entries.add(MUSIC_DISC_ACID_BALADE);
-        entries.add(COMPRESSED_COAL);
-        entries.add(DENSE_DIAWRONITE_ALLOY_INGOT);
+
+
     }
 
     private static Item registerItem(String name, Item item) {
