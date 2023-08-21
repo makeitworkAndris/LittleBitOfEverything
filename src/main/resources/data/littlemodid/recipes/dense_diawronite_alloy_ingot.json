@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "littlemodid:diawronite_alloy_ingot"
+    },
+    "q": {
+      "item": "littlemodid:diawronite_alloy_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "#q#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "littlemodid:dense_diawronite_alloy_ingot"
+  },
+  "show_notification": true
+}
