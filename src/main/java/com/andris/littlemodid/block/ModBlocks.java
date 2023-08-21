@@ -17,9 +17,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block DIAWRONITE_BLOCK = registerBlock("diawronite_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.NETHERITE)));
-
-//    public static final Block TEST_BLOCK = registerBlock("diawronite_block",
-//            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block SPECIAL_DIRT = registerBlock("special_dirt",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
 
     public static void registerModBlocks(){
         LittleModMain.LOGGER.info("Registering Modblocks for " + LittleModMain.MOD_ID);

@@ -50,12 +50,12 @@ public class ModItems {
         entries.add(URANIUM_DUST);
         entries.add(DIAWRONITE_ALLOY_DUST);
         entries.add(RAINBOW_DYE);
-
         entries.add(DIAWRONITE_AXE);
         entries.add(DIAWRONITE_HOE);
         entries.add(DIAWRONITE_PICKAXE);
         entries.add(DIAWRONITE_SHOVEL);
         entries.add(DIAWRONITE_SWORD);
+        entries.add(ModBlocks.SPECIAL_DIRT);
     }
 
     private static Item registerItem(String name, Item item) {
