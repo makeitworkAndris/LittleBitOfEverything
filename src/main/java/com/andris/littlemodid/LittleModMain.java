@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 public class LittleModMain implements ModInitializer {
 	public static final String MOD_ID = "littlemodid";
     public static final Logger LOGGER = LoggerFactory.getLogger("littlemodid");
+    public static final Logger LOGGER = LoggerFactory.getLogger("Editedin School :O");
 
 	@Override
 	public void onInitialize() {
