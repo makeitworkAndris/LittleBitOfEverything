@@ -2,6 +2,7 @@ package com.andris.littlemodid.item;
 
 import com.andris.littlemodid.LittleModMain;
 import com.andris.littlemodid.item.custom.RemoverItem;
+import com.andris.littlemodid.item.custom.ThreeByThreeBreaker;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -15,10 +16,12 @@ public class ModItems {
 
     public static final Item DIAWRONITE_ALLOY_INGOT = registerItem("diawronite_alloy_ingot", new Item(new FabricItemSettings()));
     public static final Item REMOVERITEM = registerItem("removeritem", new RemoverItem(new FabricItemSettings()));
+    public static final Item THREEBYTHREEBREAKER = registerItem("threebythreebreaker", new ThreeByThreeBreaker(new FabricItemSettings()));
 
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(DIAWRONITE_ALLOY_INGOT);
         entries.add(REMOVERITEM);
+        entries.add(THREEBYTHREEBREAKER);
     }
 
     private static Item registerItem(String name, Item item) {
