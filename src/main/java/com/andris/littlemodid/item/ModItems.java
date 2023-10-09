@@ -16,7 +16,8 @@ public class ModItems {
 
     public static final Item DIAWRONITE_ALLOY_INGOT = registerItem("diawronite_alloy_ingot", new Item(new FabricItemSettings()));
     public static final Item REMOVERITEM = registerItem("removeritem", new RemoverItem(new FabricItemSettings()));
-    public static final Item THREEBYTHREEBREAKER = registerItem("threebythreebreaker", new ThreeByThreeBreaker(new FabricItemSettings()));
+    public static final Item THREEBYTHREEBREAKER = registerItem("threebythreebreaker",
+            new ThreeByThreeBreaker(ModToolMaterials.DIAWRONITE,1,2f, new FabricItemSettings()));
 
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(DIAWRONITE_ALLOY_INGOT);
