@@ -23,10 +23,10 @@ public class ThreeByThreeBreaker extends PickaxeItem {
             }));
         }
         float yaw = miner.getYaw();
-        float pitch = miner.getYaw();
+        float pitch = miner.getPitch();
 
-        if((pitch >= 45 && pitch <= 90) || (pitch <= -45 && pitch >= -90)){
-            miner.sendMessage(Text.literal("Up or down" + pitch +"---"+ yaw));
+        if((pitch >= 21.1 && pitch <= 90) || (pitch <= -33.2 && pitch >= -90)){
+            miner.sendMessage(Text.literal("Up or down " + yaw +"---"+ pitch));
             world.breakBlock(pos.add(0, 0, 1), true);
             world.breakBlock(pos.add(0, 0, 0), true);
             world.breakBlock(pos.add(0, 0, -1), true);
@@ -38,9 +38,9 @@ public class ThreeByThreeBreaker extends PickaxeItem {
             world.breakBlock(pos.add(-1, 0, 1), true);
             world.breakBlock(pos.add(-1, 0, 0), true);
             world.breakBlock(pos.add(-1, 0, -1), true);
-
-        }else if(((yaw <= 135.1 && yaw < 180) || (yaw > -180 && yaw <= -135.1)) || (yaw >= -44.9 || yaw <= 45)){
-            miner.sendMessage(Text.literal("north and south" + pitch +"---"+ yaw));
+                //north
+        }else if(((yaw >= 135 && yaw <= 180) || (yaw >= -180 && yaw <= -135.1)) || (yaw >= -45 && yaw <= 44.9)){
+            miner.sendMessage(Text.literal("north and south " +  yaw +"---"+ pitch));
             world.breakBlock(pos.add(0, 1, 0), true);
             world.breakBlock(pos.add(0, 0, 0), true);
             world.breakBlock(pos.add(0, -1, 0), true);
@@ -53,8 +53,9 @@ public class ThreeByThreeBreaker extends PickaxeItem {
             world.breakBlock(pos.add(-1, 0, 0), true);
             world.breakBlock(pos.add(-1, -1, 0), true);
 
-        }else if((yaw < -134.9 || yaw <= -45.1) || (yaw <= 49.1 || yaw > -135)) {
-            miner.sendMessage(Text.literal("east and west"+ pitch +"---"+ yaw));
+                //east                             west
+        }else if((yaw >= -135 && yaw <= -45.1) || (yaw >= 45.0 && yaw <= 134.9)) {
+            miner.sendMessage(Text.literal("east and west "+ yaw +"---"+ pitch));
             world.breakBlock(pos.add(0, 1, 0), true);
             world.breakBlock(pos.add(0, 0, 0), true);
             world.breakBlock(pos.add(0, -1, 0), true);
